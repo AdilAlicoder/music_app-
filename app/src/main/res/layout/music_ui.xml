@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="8dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/music"
+            android:layout_marginRight="260dp"
+            android:layout_marginTop="5dp"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="electronic-text-30-sec-edit"
+            android:layout_marginTop="12dp"
+            android:id="@+id/txt"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_marginLeft="75dp"></TextView>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-18dp"></TextView>
+</LinearLayout>

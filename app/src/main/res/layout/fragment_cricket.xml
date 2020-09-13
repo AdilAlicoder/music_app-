@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cetagerois"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="7dp"
+        android:textSize="25dp"
+        android:textColor="#000"></TextView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="330dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="13dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/last"></ImageView>
+    </androidx.cardview.widget.CardView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/rec"></androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

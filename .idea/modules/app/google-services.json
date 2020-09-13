@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1025360380310",
+    "firebase_url": "https://music-app-7e762.firebaseio.com",
+    "project_id": "music-app-7e762",
+    "storage_bucket": "music-app-7e762.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025360380310:android:d79d22af65fa92f7579db7",
+        "android_client_info": {
+          "package_name": "com.india.audio_music"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025360380310-59qetmsr55nqm11uh6qi31iau3uqnen6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.india.audio_music",
+            "certificate_hash": "1aedc1bb670a064dbda442da0a90a7463bad7a8f"
+          }
+        },
+        {
+          "client_id": "1025360380310-ljbhmnq0operks3vrbd1gv2g5m8l398n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBo9FJKR6cubaJ5KV7Y29ap-9oGAHRBhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025360380310-ljbhmnq0operks3vrbd1gv2g5m8l398n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
